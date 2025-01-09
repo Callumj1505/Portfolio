@@ -1,0 +1,441 @@
+body{
+    background-color: rgb(33,33,33);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    background-color: #00FFBB;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-right: 20px; 
+    margin-left: -30px;
+}
+
+.button:hover{
+    background-color: aquamarine;
+}
+
+.container1{
+    justify-content: left;
+    align-items: left;
+    padding-top: 137px
+}
+
+.h1{
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.container2{
+    justify-content: right;
+    align-items: right;
+    padding: 0px;
+}
+
+.p2{
+    color: #00FFBB;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: row-reverse;
+    padding: 20px 0px 20px 0px; 
+    background-color: #0D0D0D;
+    width: 100%;
+    margin-right: 10px;
+}
+
+
+.button2{
+    background-color: #00FFBB;
+    margin-right: 30px;
+    margin-left: 40px; /* Added this line to move it to the left */
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-right: 50px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a:hover {
+    color: #00FFBB;
+}
+
+nav ul li a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:70vh;
+    margin-bottom: 0px;
+}
+.p1{
+    color: white;
+    font-size: 15px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.textblock{
+    padding-top: 20px;
+    background-color: rgb(33,33,33);
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 100%;
+}
+
+
+.p4{
+    color: black;
+    padding-left: 20px;
+}
+
+
+.project-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 200vh;
+    width: 100%;
+}
+
+.python-img{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+
+
+.project{
+    background-color: #00FFBB;
+    position: relative;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.project-container{
+    display: flex;
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    position: relative; /* Changed from absolute to relative */
+    gap: 30px; /* Added this line to add space between each block */
+    margin-bottom: 30px;
+    margin-left: 80px; /* Added this line to add space below each block */
+    border-radius: 20px;
+}
+.project-text{
+    background-color: #00FFBB;
+    height:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.project-image{
+    margin-left: 30px; /* Added this line to add space to the left of the image */
+    padding-bottom: 40px;
+    float: left;
+    top: 20px;
+    height: 280px;
+    position:relative;
+    
+}
+
+.project-title{
+    top: 30px;
+    position: relative;
+    font-size: 40px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    border-radius: 20px;
+
+}
+
+.project-description{
+    position: relative;
+    top: 20px;
+    width:800px;
+    font-size: 80px;
+    font-size: medium;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.project-container .project:first-child .project-description {
+    width: 900px;
+}
+
+.project-container .project:first-child {
+    height: 340px;
+}
+
+.ph{
+    color: white;
+    position: relative;
+    padding: 10px 30px 10px 30px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+    border: #00FFBB solid 5px;
+    border-radius: 20px;
+    background-color:#212121;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.phd{
+    display: flex;
+    margin-top: -80px;
+    margin-bottom: 70px;
+}
+
+
+.footer{
+    background-color: #00FFBB;
+    height: 30px;
+    padding-top: 60px;
+}
+.p-footer{
+    top: -40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.form{
+    background-color: #00FFBB;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height:550px ;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 1000px 10px 0px; 
+    background-color:gainsboro ;
+    border: white solid 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #0D0D0D solid 2px;
+    border-radius: 10px;
+}
+
+.input2{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+    background-color:#00FFBB;
+    color:#212121;
+    border:#212121 solid 2px;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.input2:hover{
+    background-color: aquamarine;
+
+}
+
+.contact-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border:#00FFBB solid 2px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: #212121;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.contact-div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.gitbutton{
+    background-color:transparent;
+    padding-top: 15px;
+    color:#212121;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 15px;
+    margin-top: 30px;
+    border:#212121 solid 2px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.gitbutton:hover{
+    background-color: #212121;
+    color: white;
+    border: white solid 2px;
+    
+}
+
+.input2:hover{
+    background-color: #212121;
+    color: white;
+    border: white solid 2px;
+}
+
+.custom-shape-divider-top-1736448884 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736448884 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 99px;
+}
+
+.custom-shape-divider-top-1736448884 .shape-fill {
+    fill: #212121;
+}
+
+
+.aboutme{
+    background-color: #00FFBB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 170px;
+}
+
+.custom-shape-divider-bottom-1736450314 {
+    position: relative;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1736450314 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 82px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1736450314 .shape-fill {
+    fill:#00FFBB;
+}
+
+.custom-shape-divider-top-1736450906 {
+    position: relative;
+    top: -170px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736450906 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1736450906 .shape-fill {
+    fill: #00FFBB;
+}
+
+
+.h2{
+    font-size: 40px;
+    margin-bottom: -5px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.p3{
+    width: 90%;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
